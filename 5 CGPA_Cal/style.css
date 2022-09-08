@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+  color: white;
+}
+
+body {
+  background: #182224;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+caption {
+  margin-bottom: 20px;
+}
+caption {
+  font-size: 29px;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.container {
+  box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  height: 100vh;
+}
+button {
+  color: #002831;
+  margin: 3% 0 5% 0;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.8s;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 1;
+  color: #002831;
+  border: 2px solid #ea9e4a;
+}
+ul {
+  list-style: none;
+}
+
+.Table {
+  width: 100%;
+  margin: 20px auto auto auto;
+  box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+th {
+  font-size: 18px;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+input {
+  outline: none;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50px;
+  border: 1px solid #002831;
+  color: #002831;
+  font-weight: bold;
+  box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  /* border-style: none; */
+}
+
+.afterDiv {
+  margin: 50% auto;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 10px;
+  color: #182224;
+}
+
+tbody tr:last-child {
+  animation-name: Opacity;
+  animation-duration: 5s;
+}
+
+@keyframes Opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 25;
+  }
+  50% {
+    opacity: 50;
+  }
+  85% {
+    opacity: 85;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+.delete {
+  cursor: pointer;
+}
